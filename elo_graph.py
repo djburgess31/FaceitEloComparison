@@ -16,5 +16,4 @@ plt.title("ELO Distribution in US and EU")
 
 plt.hist((region_dict["EU"], region_dict["US"]), 50)
 
-
 plt.show()

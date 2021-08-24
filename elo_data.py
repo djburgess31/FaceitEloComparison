@@ -16,7 +16,7 @@ def get_elo_data(region, players):
 
     return elo
     
-region_dict = {"EU":5000, "US":5000}
+region_dict = {"EU":8849400, "US":937100}
 for region in region_dict:
     elo_data = get_elo_data(region, region_dict[region])
     file = open(region, "w")
